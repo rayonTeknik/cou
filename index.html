@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chaolong</title>
+
+  <style>
+    .wa{
+      /* memanggil seluruh div wa, dan memposisikannya di kiri bawah
+      serta membuatnya fixed agar tidak ikut ke scroll */
+      z-index: 9;
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      margin: 1rem;
+    }
+    .wa img{
+      /* mengatur ukuran gambar wa, llau memberi transisi  0.5 detik*/
+      height: 4rem;
+      transition: transform 0.5s ease;
+    }
+    .wa:hover img{
+      /* ketika cursor diarahkan atau di hover ukuran bertambah besar 
+      dan cursornya berbentuk pointer */
+      transform: scale(1.5);
+      cursor: pointer;
+    }
+
+  </style>  
+</head>
+<body>
+
+<!-- ini section hanya untuk ngetes posisi wa apakah posisinya diam ditempat atau ikut ke scroll -->
+  <section>
+<div><br><br>
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, 
+  consequuntur hic voluptates nesciunt molestias eligendi minus, 
+  quos, veniam doloribus excepturi et quibusdam inventore corrupti molestiae facilis mollitia eos expedita vitae?
+</div>
+<div><br><br>
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, 
+  consequuntur hic voluptates nesciunt molestias eligendi minus, 
+  quos, veniam doloribus excepturi et quibusdam inventore corrupti molestiae facilis mollitia eos expedita vitae?
+</div>
+<div><br><br>
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, 
+  consequuntur hic voluptates nesciunt molestias eligendi minus, 
+  quos, veniam doloribus excepturi et quibusdam inventore corrupti molestiae facilis mollitia eos expedita vitae?
+</div>
+<div><br><br>
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, 
+  consequuntur hic voluptates nesciunt molestias eligendi minus, 
+  quos, veniam doloribus excepturi et quibusdam inventore corrupti molestiae facilis mollitia eos expedita vitae?
+</div>
+<div><br><br>
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, 
+  consequuntur hic voluptates nesciunt molestias eligendi minus, 
+  quos, veniam doloribus excepturi et quibusdam inventore corrupti molestiae facilis mollitia eos expedita vitae?
+</div>
+<div><br><br>
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, 
+  consequuntur hic voluptates nesciunt molestias eligendi minus, 
+  quos, veniam doloribus excepturi et quibusdam inventore corrupti molestiae facilis mollitia eos expedita vitae?
+</div>
+<div><br><br>
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, 
+  consequuntur hic voluptates nesciunt molestias eligendi minus, 
+  quos, veniam doloribus excepturi et quibusdam inventore corrupti molestiae facilis mollitia eos expedita vitae?
+</div>
+<div><br><br>
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, 
+  consequuntur hic voluptates nesciunt molestias eligendi minus, 
+  quos, veniam doloribus excepturi et quibusdam inventore corrupti molestiae facilis mollitia eos expedita vitae?
+</div>
+<div><br><br>
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, 
+  consequuntur hic voluptates nesciunt molestias eligendi minus, 
+  quos, veniam doloribus excepturi et quibusdam inventore corrupti molestiae facilis mollitia eos expedita vitae?
+</div>
+<div><br><br>
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, 
+  consequuntur hic voluptates nesciunt molestias eligendi minus, 
+  quos, veniam doloribus excepturi et quibusdam inventore corrupti molestiae facilis mollitia eos expedita vitae?
+</div>
+  </section>
+
+
+  <div class="wa">
+    <a target="_blank" href="https://api.whatsapp.com/send?phone=+6281808262333&text=Halo%20Chaolong%20saya%20ingin%20menanyakan%20sesuatu%20disini">
+      <button style="background-color: transparent; border: none;">
+        <img src="wa.png" alt="WhatsApp">
+      </button>
+    </a>
+  </div>
+<!-- 
+  keterangan link :
+  -> ketika klik maka akan otomatis di redirect ke nomor whatsapp phone=+6281808262333&
+  -> &text=Halo%20Chaolong%20saya%20ingin%20menanyakan%2sesuatu%20disini"
+  -> ubah pesan sesuai kebutuhan, spasi guanakan %20
+  -->
+</body>
+</html>
